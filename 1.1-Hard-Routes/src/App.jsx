@@ -17,9 +17,13 @@ function App() {
                 <Route path='about' element={<About />} />
                 <Route path='contact' element={<Singup />} />   
                 <Route path='products' element={<Products />} />
-        <Route path='products/:id' element={<Productsinfo />} />
+               <Route path='products/:id' element={<Productsinfo />} />
+
+
         <Route path="profile" element={<h1>Profile</h1>} />
-        <Route path="account" element={<Account />  } />
+        <Route path="account" element={<Account />} />
+        
+
         </Route>
 
       </Routes>
