@@ -25,7 +25,7 @@ const result = React.useMemo(() => {
     }
     console.log("✅ Heavy calculation finished");
     return sum;
-  }, [count]);
+  }, []);
 
 
   return (
@@ -43,7 +43,7 @@ const result = React.useMemo(() => {
         onChange={(e) => setText(e.target.value)}
       />
 
-      <Child result={ result} />
+      <Child result={result}/>
     </>
   );
 }
