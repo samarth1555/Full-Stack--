@@ -1,3 +1,7 @@
+# To create template in react framework
+create a folder e.g testing 2.1E
+open in the terminal  run command
+### npx create-react-app .
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
